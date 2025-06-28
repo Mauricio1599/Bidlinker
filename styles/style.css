@@ -1,0 +1,115 @@
+/* Fuente Montserrat / Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Montserrat", sans-serif; */
+/* font-family: "Roboto", sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0f4c81;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: space-between
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: block
+}
+
+h1 {
+    text-align: center;
+    margin: 30px 15px;
+    color: #0f4c81; 
+    font-size: 45px;  
+}
+
+h2 {
+    color: #0f4c81; 
+    font-size: 36px;
+    text-align: center;  
+}
+
+h3 {
+    color: #0f4c81;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo-eslabon {
+    width: 5px;
+}
+
+/* Tarjeta con soliciutudes de presupuestos activas */
+.tarjeta-solicitud {
+    color: #0f4c81;
+}
+
+.boton {
+    text-decoration: none;
+    color: #ffff;
+    background-color: #0f4c81;
+    border-color: #0f4c81;
+    border-style: solid;
+    padding: 10px;
+    margin: 20px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.boton:hover {
+    background-color: #ffff;
+    color: #0f4c81;
+}
+
+/* Columnas de ¿Cómo funciona? */
+.columnas-funcionamiento {
+    color: #0f4c81;
+}
+
+/* Lema bajo h1 */
+.lema {
+    color: #0f4c81;
+}
+
+/* Formulario para solicitar presupuestos */
+.formulario-licitacion {
+    color: #0f4c81;
+}
+
+.formuario-contacto {
+    color: #0f4c81;
+}
+
+footer {
+    color: #0f4c81;
+}
+
