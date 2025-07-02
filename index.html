@@ -13,46 +13,50 @@
 <body>
     <header>
         <img class="logo" src="Logo/Logo.png"" alt="">
-        <nav class="navbar">
-            <ul>
-                <li>
-                    <a href="#">Inicio</a>
-                </li>
-                <li>
-                    <a href="./pages/como-funciona.html">¿Cómo funciona?</a>
-                </li>
-                <li>
-                    <a href="./pages/licitacion.html">Solicitar presupuesto</a>
-                </li>
-                <li>
-                    <a href="./pages/solicitudes.html">Ver solicitudes</a>
-                </li>
-                <li>
-                    <a href="./pages/contacto.html">Contacto</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-navbar">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active-nav" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link" href="./pages/como-funciona.html">¿Cómo funciona?</a>
+                        <a class="nav-link" href="./pages/licitacion.html">Solicitar presupuesto</a>
+                        <a class="nav-link" href="./pages/solicitudes.html">Ver solicitudes</a>
+                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
 
     <main>
         <h1>BIDLINKER</h1>
-        <p class="lema">Bidlinker conecta a quienes necesitan servicios o productos con quienes los ofrecen</p>
-        <section>
-            <article>
-                <h2>Solicita presupuestos, compara, elige</h2>
-                <a class="boton" href="licitacion.html">Solicitar presupuesto</a>
-            </article>
-            <img class="logo-eslabon" src="./Simbolos/Eslabones.png" alt="">
-            <article>
-                <h2>Ofrece tu producto o servicio</h2>
-                <a class="boton" href="solicitudes.html">Ver solicitudes</a>
-            </article>
+        <p class="container-fluid text-center lema">Bidlinker conecta a quienes necesitan servicios o productos con quienes los ofrecen</p>
+        <section class="text-center">
+            <div class="row align-items-center">
+                <article class="col-12 col-md-5 col-md-">
+                    <h2>Solicita presupuestos, compara, elige</h2>
+                    <a class="boton" href="licitacion.html">Solicitar presupuesto</a>
+                </article>
+                <div class="col-12 col-md-2">
+                    <img class="img-fluid mx-auto d-block" src="./Simbolos/Eslabones.png" alt="">
+                </div>
+                <article class="col-12 col-md-5">
+                    <h2>Ofrece tu producto o servicio</h2>
+                    <a class="boton" href="solicitudes.html">Ver solicitudes</a>
+                </article>
+            </div>
+                
         </section>
     </main>
 
-    <footer>
-        <p>© 2025 BidLinker</p> 
-        <p>Contacto: <a href="mailto:bidlinker.uy@gmail.com" target="_blank">bidlinker.uy@gmail.com</a></p> 
+    <footer class="container-fluid">
+        <div class="row">
+            <p class="col-12 col-md-6 text-center">© 2025 BidLinker</p> 
+            <p class="col-12 col-md-6 text-center">Contacto:<a href="mailto:bidlinker.uy@gmail.com" target="_blank">bidlinker.uy@gmail.com</a></p> 
+        </div>
     </footer>
 
     <!--Bootstrap JS-->
