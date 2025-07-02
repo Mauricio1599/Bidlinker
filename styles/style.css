@@ -89,9 +89,27 @@ section {
     color: #0f4c81;
 }
 
+/* Subtitulos */
+.subtitulo {
+    padding: 20px;
+}
+
 /* Formulario para solicitar presupuestos */
 .formulario-licitacion {
     color: #0f4c81;
+}
+
+.form-control-propio {
+    width: 100%;
+    padding: 6px 12px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 6px;
+}
+
+.boton-envio {
+    width: 75%;
+    margin: 6px;
 }
 
 .formuario-contacto {
@@ -100,5 +118,6 @@ section {
 
 footer {
     color: #0f4c81;
+    padding: 50px;
 }
 
