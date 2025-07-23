@@ -1,0 +1,11 @@
+@use "../utilities/variables.scss";
+
+.boton-envio {
+    width: 75%;
+    margin: 6px;
+    color: white;
+    background-color: variables.$primary-color;
+    border: none;
+    padding: 8px 0px;
+    border-radius: 6px;
+}

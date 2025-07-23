@@ -1,0 +1,16 @@
+// BASE
+@use "./partials/base/reset";
+@use "./partials/base/tipografia.scss";
+
+// COMPONENTS
+@use "./partials/components/navbar.scss";
+@use "./partials/components/general.scss";
+@use "./partials/components/boton.scss";
+@use "./partials/components/boton-envio.scss";
+@use "./partials/components/form.scss";
+@use "./partials/components/footer.scss";
+// @use "./partials/components/cards.scss";
+
+
+
+

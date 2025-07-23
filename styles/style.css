@@ -1,135 +1,106 @@
 /* Fuente Montserrat / Roboto */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-/* font-family: "Montserrat", sans-serif; */
-/* font-family: "Roboto", sans-serif; */
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
+/* font-family: "Montserrat", sans-serif; */
+/* font-family: "Roboto", sans-serif; */
 header {
-    background-color: #0f4c81;
-    display: flex;
-    flex-direction: row;
-    height: 50px;
-    justify-content: space-between
+  background-color: #0f4c81;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  justify-content: space-between;
+}
+header .bg-navbar a {
+  color: white;
+  background-color: #0f4c81;
+  padding: 8px;
+}
+header .bg-navbar .active-nav {
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: white;
+}
+header .bg-navbar .desplegable {
+  width: 20px;
+  height: 20px;
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
-}
-
-.bg-navbar a {
-    color:white;
-    background-color: #0f4c81;
-    padding: 8px;
-}
-
-.active-nav {
-    font-family: "Montserrat";
-    font-weight: bold;
-    color: white;
-}
-
-.desplegable {
-    width: 20px;
-    height: 20px;
+  font-family: "Montserrat", sans-serif;
 }
 
 h1 {
-    text-align: center;
-    margin: 30px 15px;
-    color: #0f4c81; 
-    font-size: 40px;  
-}
-
-h2 {
-    color: #0f4c81; 
-    font-size: 36px;
-    text-align: center;  
-}
-
-h3 {
-    color: #0f4c81;
-}
-
-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.logo-eslabon {
-    width: 5px;
-}
-
-/* Tarjeta con soliciutudes de presupuestos activas */
-.tarjeta-solicitud {
-    color: #0f4c81;
-}
-
-.boton {
-    text-decoration: none;
-    color: #ffff;
-    background-color: #0f4c81;
-    border-color: #0f4c81;
-    border-style: solid;
-    padding: 10px;
-    margin: 20px;
-    display: inline-block;
-    border-radius: 10px;
-}
-
-.boton:hover {
-    background-color: #ffff;
-    color: #0f4c81;
-}
-
-/* Columnas de ¿Cómo funciona? */
-.columnas-funcionamiento {
-    color: #0f4c81;
+  text-align: center;
+  margin: 30px 15px;
+  color: #0f4c81;
+  font-size: 40px;
 }
 
 /* Lema bajo h1 */
 .lema {
-    color: #0f4c81;
+  color: #0f4c81;
 }
 
-/* Subtitulos */
-.subtitulo {
-    padding: 20px;
+h2 {
+  color: #0f4c81;
+  font-size: 36px;
+  text-align: center;
 }
 
-/* Formulario para solicitar presupuestos */
-.formulario-licitacion {
-    color: #0f4c81;
+h3 {
+  color: #0f4c81;
 }
 
-.form-control-propio {
-    width: 100%;
-    padding: 6px 12px;
-    border-width: 1px;
-    border-style: solid;
-    border-radius: 6px;
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.logo-eslabon {
+  width: 5px;
+}
+
+.boton {
+  text-decoration: none;
+  color: white;
+  background-color: #0f4c81;
+  border-color: #0f4c81;
+  border-style: solid;
+  padding: 10px;
+  margin: 20px;
+  display: inline-block;
+  border-radius: 10px;
+}
+.boton:hover {
+  background-color: white;
+  color: #0f4c81;
 }
 
 .boton-envio {
-    width: 75%;
-    margin: 6px;
-    color: white;
-    background-color: #0f4c81;
-    border: none;
-    padding: 8px 0px;
-    border-radius: 6px;
+  width: 75%;
+  margin: 6px;
+  color: white;
+  background-color: #0f4c81;
+  border: none;
+  padding: 8px 0px;
+  border-radius: 6px;
 }
 
-.formuario-contacto {
-    color: #0f4c81;
+.form-control-propio {
+  width: 100%;
+  padding: 6px 12px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 6px;
 }
 
 footer {
-    color: #0f4c81;
-    padding: 50px;
+  padding: 50px;
 }
 
+/*# sourceMappingURL=style.css.map */

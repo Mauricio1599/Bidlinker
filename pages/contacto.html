@@ -33,25 +33,37 @@
     <main>
         <h1>Contáctanos</h1>
         <section>
-            <article>
-                <form class="formuario-contacto" action="">
-                    <input type="text" name="nombre" id="nombre" placeholder="Nombre">
-                    <input type="text" name="email" id="email" placeholder="email">
-                    <textarea name="Mensaje" id="Mensaje" placeholder="Mensaje"></textarea>
-                    <select name="tipo" id="tipo">
-                        <option value="">¿Eres cliente o proveedor?</option>
-                        <option value="cliente">cliente</option>
-                        <option value="proveedor">proveedor</option>
-                    </select>
-                    <button type="submit">Enviar</button>
+            <article class="p-3">
+                <form class="row g-3 w-100 formuario-contacto" action="">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control-propio name="nombre" id="nombre" placeholder="Nombre">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control-propio name="email" id="email" placeholder="email">
+                    </div>
+                    <div>
+                        <textarea name="Mensaje" class="form-control-propio id="Mensaje" placeholder="Mensaje"></textarea>
+                    </div>
+                    <div class="co-12 text-center">
+                        <select name="tipo" id="tipo">
+                            <option value="">¿Eres cliente o proveedor?</option>
+                            <option value="cliente">cliente</option>
+                            <option value="proveedor">proveedor</option>
+                        </select>
+                    </div>
+                    <div class="col-12 text-center">
+                        <button type="submit" class="boton-envio">Enviar</button>
+                    </div>
                 </form>
             </article>
         </section>
     </main>   
 
-    <footer>
-        <p>© 2025 BidLinker</p> 
-        <p>Contacto: <a href="mailto:bidlinker.uy@gmail.com" target="_blank">bidlinker.uy@gmail.com</a></p> 
+    <footer class="container-fluid">
+        <div class="row">
+            <p class="col-12 col-md-6 text-center">© 2025 BidLinker</p> 
+            <p class="col-12 col-md-6 text-center">Contacto:<a href="mailto:bidlinker.uy@gmail.com" target="_blank">bidlinker.uy@gmail.com</a></p> 
+        </div>
     </footer>
 
     <!--Bootstrap JS-->

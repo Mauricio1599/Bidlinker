@@ -1,0 +1,38 @@
+@use "../utilities/variables.scss";
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px 15px;
+    color: variables.$primary-color;
+    font-size: 40px;
+}
+
+/* Lema bajo h1 */
+.lema {
+    color: #0f4c81;
+}
+
+h2 {
+    color: variables.$primary-color;
+    font-size: 36px;
+    text-align: center;
+}
+
+h3 {
+    color: variables.$primary-color;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo-eslabon {
+    width: 5px;
+}
+

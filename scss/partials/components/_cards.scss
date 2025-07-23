@@ -1,0 +1,5 @@
+@import "../utilities/mixins";
+
+.tarjeta-solicitud {
+    @include flex(row, space-between,center);
+}

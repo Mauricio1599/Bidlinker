@@ -1,0 +1,26 @@
+@use "../utilities/variables.scss";
+
+header {
+    background-color: #0f4c81;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: space-between;
+    .bg-navbar {
+        
+        a {
+            color:white;
+            background-color: variables.$primary-color;
+            padding: 8px;
+        }
+        .active-nav {
+            font-family: "Montserrat";
+            font-weight: bold;
+            color: white;
+        }   
+        .desplegable {
+            width: 20px;
+            height: 20px;
+        }
+    }
+}

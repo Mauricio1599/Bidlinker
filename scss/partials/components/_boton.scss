@@ -1,0 +1,17 @@
+@use "../utilities/variables.scss";
+
+.boton {
+    text-decoration: none;
+    color: white;
+    background-color: variables.$primary-color;
+    border-color: variables.$primary-color;
+    border-style: solid;
+    padding: 10px;
+    margin: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    &:hover {
+        background-color: white;
+        color: variables.$primary-color;
+    }
+}
