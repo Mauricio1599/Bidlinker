@@ -1,3 +1,15 @@
+@use "../utilities/variables.scss";
+
 footer {
     padding: 50px;
+    background-color: variables.$primary-color;
+    color: white;
+}
+
+.contacto {
+color: white;
+text-decoration: none;
+&:hover {
+        font-weight: bold;
+    }
 }

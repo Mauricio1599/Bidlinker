@@ -37,12 +37,18 @@ h1 {
   text-align: center;
   margin: 30px 15px;
   color: #0f4c81;
-  font-size: 40px;
+  font-size: 45px;
 }
 
 /* Lema bajo h1 */
 .lema {
   color: #0f4c81;
+}
+
+/* Lista de ventajas */
+.ventajas {
+  color: #0f4c81;
+  padding: 10px 100px;
 }
 
 h2 {
@@ -53,6 +59,16 @@ h2 {
 
 h3 {
   color: #0f4c81;
+  text-align: center;
+  font-size: 30px;
+  padding: 40px;
+}
+
+h4 {
+  color: #0f4c81;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
 }
 
 section {
@@ -133,6 +149,16 @@ section {
 
 footer {
   padding: 50px;
+  background-color: #0f4c81;
+  color: white;
+}
+
+.contacto {
+  color: white;
+  text-decoration: none;
+}
+.contacto:hover {
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
