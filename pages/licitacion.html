@@ -44,15 +44,33 @@
                         <label for="ubicacion">Ubicación</label>
                         <input type="text" class="form-control-propio" name="ubicacion" id="ubicacion" placeholder="Ej. Cordón, Montevideo, Uruguay">
                     </div>
+                    <div class="col-md-6">
+                        <label for="ubicacion">Presupuesto estimado</label>
+                        <input type="text" class="form-control-propio" name="ubicacion" id="ubicacion" placeholder="Ej. $50.000">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="disabledSelect">Categoría</label>
+                        <select id="disabledSelect" class="form-control-propio" placeholder="Elije una categoría">
+                            <option value="" disabled selected>Elige una categoría</option>
+                            <option>Construcción</option>
+                            <option>Instalaciones y mantenimiento</option>
+                            <option>Limpieza y sanitización</option>
+                            <option>Suministros y equipamiento</option>
+                            <option>Marketing y diseño</option>
+                            <option>Eventos y catering</option>
+                            <option>Transporte y logística</option>
+                            <option>Otros</option>
+                        </select>
+                    </div>
                     <div class="col-12">
                         <label for="descripcion">Descripción</label>
                         <textarea name="descripcion" class="form-control-propio" id="descripcion" placeholder="Describe brevemente el producto o servicio solicitado..." rows="3" required></textarea>
                     </div>
-                    <div class="col-md-6"">
+                    <div class="col-md-6">
                         <label for="email">correo electronico</label>
                         <input type="email" class="form-control-propio" name="email" id="email" placeholder="nombre@empresa.com">
                     </div>
-                    <div class="col-md-6"">
+                    <div class="col-md-6">
                         <label for="archivos">Archivos de referencia(opcional)</label>
                         <input type="file" class="form-control-propio" name="archivos" id="archivos" accept="image/pdf" multiple>
                     </div>
@@ -62,9 +80,27 @@
                 </form>
             </article>
         </section>
-        
+        <h3>Consejos útiles para solicitar presupuestos</h3>
+        <section class="text-center">
+            <div class="row w-100">
+                <article class="col-12 col-md-4">
+                    <h4>Sé claro y detallado</h4>
+                    <p class="p-como-funciona">Explica qué necesitas, dónde y cuándo. Incluye medidas, cantidades o materiales.</p>
+                    <img src="../imagenes/consejo-licitacion-1.png" class="col-12 col-md-6 rounded mx-auto d-block" alt="">
+                </article>
+                <article class="col-12 col-md-4">
+                    <h4>Adjunta referencias</h4>
+                    <p class="p-como-funciona">Sube fotos, planos o ejemplos que ayuden a los proveedores a entender tu idea.</p>
+                    <img src="../imagenes/consejo-licitacion-2.png" class="col-12 col-md-6 rounded mx-auto d-block" alt="">
+                </article>
+                <article class="col-12 col-md-4">
+                    <h4>Indica plazos importantes</h4>
+                    <p class="p-como-funciona">Si hay una fecha límite o urgencia, menciónala para recibir propuestas más ajustadas</p>
+                    <img src="../imagenes/consejo-licitacion-3.png" class="col-12 col-md-6 rounded mx-auto d-block" alt="">
+                </article>
+            </div>
+        </section>  
     </main>
-
     <footer class="container-fluid">
         <div class="row">
             <p class="col-12 col-md-6 text-center">© 2025 BidLinker</p> 
